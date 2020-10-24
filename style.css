@@ -1,0 +1,126 @@
+body{
+  background-color: 	#1d2c67;
+}
+p{
+  color: hsl(243, 100%, 93%);
+  display: inline-block;
+  font-family: "Raleway",sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+@media only screen and (max-width: 600px){
+  body{
+    background: url(images/bg-mobile.png) no-repeat;
+    background-size: cover;
+  }
+  .buttons-div{
+    margin: 7rem auto 1rem auto;
+    background-color: #1d2c67;
+    width: 90%;
+    height: 190px;
+    border-radius: 20px;
+    border-top-right-radius: 100px;
+  }
+  .logo{
+    padding: 35px 35px 25px 35px;
+  }
+  .button{
+    margin: 5px;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    background-color: hsl(229, 57%, 11%);
+    border-style: none;
+  }
+  .button:focus{
+    outline: none;
+  }
+  .buttons{
+    padding-left: 25px;
+  }
+  .diagram-div{
+    margin: 1rem auto 0 auto;
+    background-color: #1d2c67;
+    width: 90%;
+    height: 190px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .info{
+    margin: 40px auto 20px auto;
+   }
+   .chart{
+     height: 13px;
+     position: relative;
+     background: hsl(229, 57%, 11%);
+     border-radius: 25px;
+     padding: 10px;
+     width: 80%;
+     margin: 0 auto 0 auto;
+     padding: 2px;
+   }
+   .element{
+     width: 85.1%;
+    display: block;
+    height:100%;
+    border-radius: 20px;
+    background-color: hsl(6, 100%, 80%);
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+   }
+   .circle{
+     height: 11px;
+     display: inline-block;
+     overflow: hidden;
+     background-color: hsl(243, 100%, 93%);
+     width: 11px;
+     border-radius: 11px;
+     float: right;
+     margin: 1px 1px 0 auto;
+
+   }
+   .full{
+     width: 90%;
+     margin: 5px auto 0 auto;
+     padding: 2px;
+     margin-top: 6px;
+     color: hsl(243, 100%, 93%);
+     position: relative;
+     top: 5px;
+   }
+   .zero{
+     display: inline;
+     padding-right: 55%;
+   }
+   .full1{
+     display: inline;
+     padding-left: auto;
+   }
+   .left{
+     background-color: white;
+     width:50%;
+     margin: 20px auto 0 auto;
+     border-radius: 10px;
+     height: 60px;
+     text-align: center;
+   }
+   .left-text{
+     color:grey;
+     display: inline-block;
+     font-weight: 1000;
+     margin:auto;
+     position: relative;
+     position: relative;
+     top: 8px;
+
+
+   }
+   #last{
+     color: black;
+     font-size: 32px;
+     padding-right: 5px;
+   }
+   }
+}
+@media only screen and (max-width: 600px){
+  
+}
